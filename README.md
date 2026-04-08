@@ -36,8 +36,10 @@ The project combines multiple datasets together to build a broader picture of da
 
 fitbit-data-analysis-project/
 │
+├── README.md
+│
 ├── notebooks/
-│   └── 01_fitabase_analysis.ipynb
+│   └── fitbit_analysis.ipynb
 │
 ├── outputs/
 │   └── charts/
@@ -51,7 +53,7 @@ fitbit-data-analysis-project/
 │       ├── correlation_heatmap.png
 │       └── cluster_veryActive_vs_calories.png
 │
-└── README.md
+└── .gitignore
 
 ---
 
