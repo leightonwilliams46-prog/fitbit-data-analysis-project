@@ -34,26 +34,20 @@ The project combines multiple datasets together to build a broader picture of da
 
 ## Repository Structure
 
+
 fitbit-data-analysis-project/
-│
 ├── README.md
-│
 ├── notebooks/
 │   └── fitbit_analysis.ipynb
-│
-├── outputs/
-│   └── charts/
-│       ├── daily_steps_over_time.png
-│       ├── daily_calories_over_time.png
-│       ├── steps_vs_calories.png
-│       ├── activity_intensity_treemap.png
-│       ├── daily_sleep_minutes.png
-│       ├── sleep_vs_steps.png
-│       ├── sleep_vs_calories.png
-│       ├── correlation_heatmap.png
-│       └── cluster_veryActive_vs_calories.png
-│
-└── .gitignore
+└── outputs/
+    └── charts/
+        ├── daily_steps_over_time.png
+        ├── daily_calories_burned_over_time.png
+        ├── steps_vs_calories.png
+        ├── activity_intensity_treemap.png
+        ├── daily_sleep_minutes.png
+        ├── correlation_heatmap.png
+        └── activity_clusters.png
 
 ---
 
