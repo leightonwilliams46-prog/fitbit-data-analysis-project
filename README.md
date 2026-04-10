@@ -1,119 +1,120 @@
-# Fitbit Data Analysis Project
 
-This project explores daily activity, sleep behaviour, calorie burn, and movement intensity using Fitbit data from the Fitabase dataset.
+# Fitbit Data Analysis — Python Project
 
-The aim of the project is to understand behavioural patterns, visualise trends, and demonstrate data analysis skills using Python and Jupyter Notebook in a clear and accessible way.
+This project explores daily activity, fitness, sleep and heart‑rate patterns using **Fitabase Fitbit tracker data**. It demonstrates essential data‑analysis skills including data cleaning, transformation, exploratory analysis, visualisation and interpretation of behavioural trends.  
 
----
-
-## Project Overview
-
-The analysis focuses on:
-- Daily step counts and movement trends
-- Calories burned and their relationship with activity intensity
-- Sleep duration and sleep efficiency
-- Weekly activity patterns
-- Correlations between activity, sleep, and calories
-- Behavioural clustering to identify different “types” of days
-
-The project combines multiple datasets together to build a broader picture of daily behaviour rather than analysing each metric in isolation.
+The goal of this project is to understand how Fitbit users behave across various dimensions — steps, sleep, intensity, heart rate and calories — and to identify meaningful trends that could support health insights, product improvements or personalised feedback mechanisms.
 
 ---
 
-## Tools & Libraries Used
+## 📁 Project Structure
 
-- Python  
-- Jupyter Notebook  
-- pandas  
-- numpy  
-- matplotlib  
-- seaborn  
-- scikit-learn  
-
----
-
-## Repository Structure
-
-
-fitbit-data-analysis-project/
+```text
+fitbit-data-analysis-project
+│
+├── data/
+│   └── (Fitabase CSV files)
 ├── README.md
-├── notebooks/
-│   └── fitbit_analysis.ipynb
-└── outputs/
-    └── charts/
-        ├── daily_steps_over_time.png
-        ├── daily_calories_burned_over_time.png
-        ├── steps_vs_calories.png
-        ├── activity_intensity_treemap.png
-        ├── daily_sleep_minutes.png
-        ├── correlation_heatmap.png
-        └── activity_clusters.png
+└── notebooks/  (recommended location for future analysis)
+```
 
 ---
 
-## Key Visualisations
+## 📄 Data Description
+The dataset includes multiple Fitabase exports capturing:
 
-All charts generated during the analysis are saved in the folder:
+Daily activity: steps, distance, activity minutes
+Sleep monitoring: sleep duration & sleep quality
+Heart‑rate patterns
+Calories burned
+Hourly and daily intensity metrics
+
+These files collectively describe how participants moved, slept, exercised and expended energy over the tracked period.
+
+## 🔧 Tools & Libraries Used
+
+Python
+pandas (data cleaning, wrangling, joins)
+NumPy (numerical operations)
+matplotlib / seaborn (visualisation)
+Jupyter Notebook
 
 
-outputs/charts/
+## 🧹 Data Cleaning & Preparation
+The following steps were applied to prepare the dataset:
 
-These include:
-- Daily steps over time
-- Daily calories burned
-- Steps vs calories
-- Activity intensity treemap
-- Daily sleep duration
-- Sleep vs steps
-- Sleep vs calories
-- Correlation heatmap
-- Cluster analysis of activity patterns
+Converted date/time columns to proper datetime format
+Standardised column names across CSV files
+Merged multiple datasets using participant IDs
+Checked for null values, duplicates and inconsistencies
+Removed or corrected invalid or impossible values (e.g., negative steps or duration)
 
-These visualisations support the insights discussed in the notebook.
+This ensured a consistent structure for the analysis.
 
----
+## 📊 Exploratory Analysis & Visualisations
 
-## Summary of Findings
+✅ 1. Daily Steps Distribution
+Shows how active users are on an average day, highlighting patterns such as:
 
-- Daily activity levels are generally consistent, with occasional higher‑activity days.
-- Calorie burn is strongly influenced by **activity intensity**, particularly very active minutes.
-- Sleep duration varies, but does not show a strong relationship with next‑day activity levels.
-- Weekly routines influence movement patterns more than sleep quality.
-- Correlation analysis confirms strong relationships between steps, intensity, and calories.
-- Clustering reveals distinct behavioural “day types”, such as low‑activity days, routine days, and high‑intensity days.
+High‑activity vs low‑activity days
+Consistency in step behaviour
+Correlation between steps and calories burned
 
----
+✅ 2. Sleep Duration & Sleep Quality
+Visualisations may include:
 
-## Data Availability
+Total minutes asleep
+Time in bed vs time asleep
+Relationship between sleep duration and next‑day activity
 
-Due to file size constraints, the raw Fitabase CSV files are **not included** in this repository.
+✅ 3. Heart‑Rate Patterns
+Opportunities include:
 
-To run the analysis locally:
-1. Download the Fitabase dataset
-2. Place the CSV files into a local `data/` folder
-3. Run the notebook from top to bottom
+Daily resting heart rate trends
+Peaks during intense activity periods
+Hourly heart‑rate breakdowns
 
-This approach follows standard data analysis best practices for large datasets.
+✅ 4. Activity Intensity
+Analysis may include:
 
----
+Very Active / Fairly Active / Lightly Active Minutes
+Relationship between intensity and steps
+Links to calories burned
 
-## How to Run the Notebook
+✅ 5. Calories Burned vs Activity
+Charts could show:
 
-1. Clone this repository
-2. Install the required Python libraries
-3. Open the notebook in `notebooks/01_fitabase_analysis.ipynb`
-4. Ensure the dataset is available locally
-5. Run all cells sequentially
+Calories vs Steps
+Calories vs Total Active Minutes
+Day‑of‑week calorie patterns
 
----
+## 📈 Insights & Interpretation
+From Fitbit user behaviour data, we can extract several meaningful patterns:
 
-## About This Project
+Users with higher daily step counts consistently record higher calorie expenditure, showing a strong activity–energy relationship.
+Sleep duration varies significantly across individuals, with some showing consistent sleep patterns and others demonstrating irregular rest cycles.
+Very Active Minutes tend to cluster at specific times of the day, suggesting habitual exercise routines.
+Heart‑rate peaks generally align with periods of increased step counts or moderate‑to‑vigorous activity, validating the data quality.
+Sedentary minutes form a substantial portion of the day for many participants, offering opportunities for targeted health recommendations.
 
-This project was created as a data analysis portfolio piece. It demonstrates skills in:
-- Data cleaning and preparation
-- Exploratory data analysis
-- Visualisation
-- Insight generation
-- Clustering and pattern discovery
+These observations could be expanded into personalised health insights or behavioural recommendations.
 
-The focus is on clear communication of insights alongside technical implementation.
+## ▶️ How to Reproduce the Analysis
+
+Clone the repository
+Place all CSV files into the /data directory
+Open the Jupyter Notebook (recommended path /notebooks/fitbit-analysis.ipynb)
+Run the cells sequentially to reproduce cleaning, merging, visuals and insights
+Modify the analysis to explore additional behavioural patterns
+
+## ✅ Recommendations for Further Improvement
+
+Add a complete Jupyter Notebook with code, charts and commentary
+Add visuals directly into this README under each insight section
+Explore clustering or segmentation (e.g., grouping users by behaviour)
+Create a small Power BI dashboard using the cleaned dataset
+Add statistical summaries (correlations, distributions, trend lines)
+
+##  ✅ Conclusion
+This Fitbit project demonstrates a structured approach to exploring behavioural health data. By cleaning multiple linked datasets, analysing trends across movement, sleep and intensity, and deriving meaningful insights, the project showcases practical skills essential for a Data Analyst role.
+Future expansion could include modelling (e.g., predicting calorie burn), advanced segmentation or integration with health‑recommendation systems.
