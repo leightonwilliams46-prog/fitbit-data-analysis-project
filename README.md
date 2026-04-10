@@ -121,7 +121,7 @@ These observations could be expanded into personalised health insights or behavi
 
 Clone the repository.
 Place all CSV files into the /data directory.
-Open the Jupyter Notebook (recommended path /notebooks/fitbit-analysis.ipynb).
+Open the Jupyter Notebook (use the above link).
 Run the cells sequentially to reproduce cleaning, merging, visuals and insights.
 Modify the analysis to explore additional behavioural patterns.
 
