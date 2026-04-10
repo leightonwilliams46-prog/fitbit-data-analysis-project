@@ -3,7 +3,7 @@
 
 This project explores daily activity, fitness, sleep and heart‑rate patterns using **Fitabase Fitbit tracker data**. It demonstrates essential data‑analysis skills including data cleaning, transformation, exploratory analysis, visualisation and interpretation of behavioural trends.  
 
-The goal of this project is to understand how Fitbit users behave across various dimensions — steps, sleep, intensity, heart rate and calories — and to identify meaningful trends that could support health insights, product improvements or personalised feedback mechanisms.
+The goal of this project is to understand how Fitbit users behave across various dimensions including steps, sleep, intensity, heart rate and calories, and to identify meaningful trends that could support health insights, product improvements or personalised feedback mechanisms.
 
 ---
 
