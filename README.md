@@ -57,7 +57,7 @@ This ensured a consistent structure for the analysis.
 
 ```html
 <p align="center">
-outputs/charts/Daily_total_steps_over_time.png
+https://github.com/leightonwilliams46-prog/fitbit-data-analysis-project/blob/4a53c7c561d248af9bfdb6f8d5067d52f27063dc/outputs/charts/Daily_total_steps_over_time.png
 </p>
 ```
 
