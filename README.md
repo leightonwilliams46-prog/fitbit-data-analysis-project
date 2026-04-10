@@ -68,28 +68,44 @@ Correlation between steps and calories burned
 ✅ 2. Sleep Duration & Sleep Quality
 Visualisations may include:
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/leightonwilliams46-prog/fitbit-data-analysis-project/main/outputs/charts/Daily_total_minutes_asleep_over_time.png" width="700">
+</p>
+
 Total minutes asleep
-Time in bed vs time asleep
+
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/leightonwilliams46-prog/fitbit-data-analysis-project/main/outputs/charts/Sleep_efficiency_over_time.png" width="700">
+</p>
+
+Sleep efficiency over time
 Relationship between sleep duration and next‑day activity
 
-✅ 3. Heart‑Rate Patterns
-Opportunities include:
-
-Daily resting heart rate trends
-Peaks during intense activity periods
-Hourly heart‑rate breakdowns
-
-✅ 4. Activity Intensity
+✅ 3. Activity Intensity
 Analysis may include:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/leightonwilliams46-prog/fitbit-data-analysis-project/main/outputs/charts/Activity_intesity_distribution.png" width="700">
+</p>
 
 Very Active / Fairly Active / Lightly Active Minutes
 Relationship between intensity and steps
 Links to calories burned
 
-✅ 5. Calories Burned vs Activity
+✅ 4. Calories Burned vs Activity
 Charts could show:
 
-Calories vs Steps
+<p align="center">
+  <img src="https://raw.githubusercontent.com/leightonwilliams46-prog/fitbit-data-analysis-project/main/outputs/charts/Daily_calories_burned_over_time.png" width="700">
+</p>
+
+Calories burned over time
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/leightonwilliams46-prog/fitbit-data-analysis-project/main/outputs/charts/Relationship_between_total_steps_and_calories_burned.png" width="700">
+</p>
+
 Calories vs Total Active Minutes
 Day‑of‑week calorie patterns
 
