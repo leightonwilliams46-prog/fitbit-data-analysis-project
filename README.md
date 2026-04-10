@@ -55,7 +55,7 @@ This ensured a consistent structure for the analysis.
 
 ✅ 1. Daily Steps Distribution
 
-![Daily Steps](outputs/charts/daily_steps_distribution.png)
+<img src="outputs/charts/daily_steps_distribution.png"
 
 Shows how active users are on an average day, highlighting patterns such as:
 
