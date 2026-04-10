@@ -117,6 +117,12 @@ These observations could be expanded into personalised health insights or behavi
 
 ## ▶️ How to Reproduce the Analysis
 
+<p align="center">
+  <a href="notebooks/fitbit-analysis.ipynb">
+    <img src="https://img.shields.io/badge/Open%20Notebook-%20.ipynb-blue?style=for-the-badge" alt="Open Notebook">
+  </a>
+</p>
+
 Clone the repository.
 Place all CSV files into the /data directory.
 Open the Jupyter Notebook (recommended path /notebooks/fitbit-analysis.ipynb).
