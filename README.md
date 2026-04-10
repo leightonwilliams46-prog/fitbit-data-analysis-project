@@ -30,30 +30,30 @@ fitbit-data-analysis-project
 ## 📄 Data Description
 The dataset includes multiple Fitabase exports capturing:
 
-Daily activity: steps, distance, activity minutes
-Sleep monitoring: sleep duration & sleep quality
-Heart‑rate patterns
-Calories burned
-Hourly & daily intensity metrics
+- **Daily activity:** steps, distance, activity minutes  
+- **Sleep monitoring:** sleep duration & sleep quality  
+- **Heart‑rate patterns**  
+- **Calories burned**  
+- **Hourly & daily intensity metrics**
 
 Together, these files describe how participants moved, slept, exercised and expended energy over the tracked period.
 
 ## 🔧 Tools & Libraries Used
 
-Python
-pandas — data cleaning, wrangling and joins
-NumPy — numerical operations
-matplotlib & seaborn — visualisation
-Jupyter Notebook — exploratory analysis
+- **Python**  
+- **pandas** — data cleaning, wrangling and joins  
+- **NumPy** — numerical operations  
+- **matplotlib & seaborn** — visualisation  
+- **Jupyter Notebook** — exploratory analysis
 
 ## 🧹 Data Cleaning & Preparation
 The following steps were applied to prepare the dataset:
 
-Converted date/time columns to proper datetime format
-Standardised column names across CSV files
-Merged datasets using consistent participant IDs
-Checked for null values, duplicates and inconsistencies
-Removed or corrected invalid values (e.g., negative steps or duration)
+- Converted date/time columns to proper datetime format  
+- Standardised column names across CSV files  
+- Merged datasets using consistent participant IDs  
+- Checked for null values, duplicates and inconsistencies  
+- Removed or corrected invalid values (e.g., negative steps or duration)
 
 This ensured a consistent structure for reliable analysis.
 
