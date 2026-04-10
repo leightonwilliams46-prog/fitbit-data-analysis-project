@@ -56,7 +56,7 @@ This ensured a consistent structure for the analysis.
 ✅ 1. Daily Steps Distribution
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/leightonwilliams46-prog/fitbit-data-analysis-project/main/outputs/charts/daily_total_steps_over_time.png" width="600">
+  <img src="https://raw.githubusercontent.com/leightonwilliams46-prog/fitbit-data-analysis-project/main/outputs/charts/Daily_total_steps_over_time.png" width="600">
 </p>
 
 Shows how active users are on an average day, highlighting patterns such as:
