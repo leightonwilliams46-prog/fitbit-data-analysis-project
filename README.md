@@ -59,6 +59,7 @@ This ensured a consistent structure for the analysis.
 <p align="center">
 outputs/charts/Daily_total_steps_over_time.png
 </p>
+```
 
 Shows how active users are on an average day, highlighting patterns such as:
 
