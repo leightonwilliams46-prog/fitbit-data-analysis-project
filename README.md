@@ -19,8 +19,10 @@ fitbit-data-analysis-project
 │
 ├── data/
 │   └── (Fitabase CSV files)
-├── README.md
-└── notebooks/  (recommended location for future analysis)
+├── notebooks/
+│   └── 01_fitabase_analysis.ipynb
+└── outputs/
+    └── charts/
 ```
 
 ---
