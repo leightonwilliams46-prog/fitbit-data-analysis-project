@@ -54,6 +54,9 @@ This ensured a consistent structure for the analysis.
 ## 📊 Exploratory Analysis & Visualisations
 
 ✅ 1. Daily Steps Distribution
+
+<img src="outputs/charts/daily_steps_distribution.png"
+
 Shows how active users are on an average day, highlighting patterns such as:
 
 High‑activity vs low‑activity days
